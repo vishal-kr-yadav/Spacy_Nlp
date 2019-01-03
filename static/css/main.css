@@ -1,0 +1,34 @@
+
+
+/* Style the content */
+.content {
+padding: 0; 
+margin: 0;
+ width: auto;
+/*  width: 100%;
+*/  height: 340px;
+  background-image: url('/static/img/NLP.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+/* Style the footer */
+.footer {
+padding: 0; 
+margin: 0;
+width: auto;
+height:290px;
+background-color: #00bfff;
+}
+form {
+	color: white;
+
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+
+

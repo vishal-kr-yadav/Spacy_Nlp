@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:border-radius="http://www.w3.org/1999/xhtml" xmlns:font-weight="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	 <script src="static/js/signUp.js"></script>
+
+</head>
+<body>
+<!--<script>-->
+  <!--function myFunction() {-->
+  <!--var sts = document.getElementById("options").value;-->
+  <!--windows.alert("hi")-->
+  <!--// var size = document.getElementById("size").value;-->
+  <!--// history.pushState("", "Title", "new_URL");-->
+<!--}-->
+<!--</script>-->
+
+<div class="content">
+
+</div>
+<div class="footer">
+
+
+
+  <form name="myForm" role="form">
+
+  <input type="radio" name="options" id="tokenization" value="tokenization"> Tokenization </input><br>
+  <input type="radio" name="options" id="text_lematization" value="text_lematization"> Text Lematization </input><br>
+  <input type="radio" name="options" id="text_labelling" value="text_labelling"> Entity Extraction </input><br>
+  <input type="radio" name="options" id="text_similarity" value="text_similarity"> Text Similarity </input><br>
+  <input type="radio" name="options" id="extract_currency" value="extract_currency"> Extract Currency </input><br>
+
+
+
+
+
+      <p> Enter your text:<br>
+      <input type="text" name="search" placeholder="Search.." style="width: 390px; height: 25px"><br>
+       <!--<p><input type="submit" value="submit" ></p>-->
+      <button type="button" >Submit</button>
+      <!--<button  onsubmit="myFunction()">submit</button>-->
+
+</form>
+
+</div>
+<!--<script type=text/javascript src="{{url_for('static', filename='js/test.js') }}"></script>-->
+
+</body>
+</html>
